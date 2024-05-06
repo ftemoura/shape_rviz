@@ -1,0 +1,585 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 116
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+      Splitter Ratio: 0.5
+    Tree Height: 667
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Name: Time
+    SyncMode: 0
+    SyncSource: PointCloud
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Filter (blacklist): ""
+      Filter (whitelist): ""
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        base:
+          Value: true
+        cs1:
+          Value: false
+        cs10:
+          Value: false
+        cs11:
+          Value: false
+        cs12:
+          Value: false
+        cs13:
+          Value: false
+        cs14:
+          Value: false
+        cs15:
+          Value: false
+        cs16:
+          Value: false
+        cs17:
+          Value: false
+        cs18:
+          Value: false
+        cs19:
+          Value: false
+        cs2:
+          Value: false
+        cs20:
+          Value: false
+        cs21:
+          Value: false
+        cs22:
+          Value: false
+        cs23:
+          Value: false
+        cs24:
+          Value: false
+        cs25:
+          Value: false
+        cs26:
+          Value: false
+        cs27:
+          Value: false
+        cs28:
+          Value: false
+        cs29:
+          Value: false
+        cs3:
+          Value: false
+        cs30:
+          Value: false
+        cs31:
+          Value: false
+        cs32:
+          Value: false
+        cs33:
+          Value: false
+        cs34:
+          Value: false
+        cs35:
+          Value: false
+        cs36:
+          Value: false
+        cs37:
+          Value: false
+        cs38:
+          Value: false
+        cs39:
+          Value: false
+        cs4:
+          Value: false
+        cs40:
+          Value: false
+        cs41:
+          Value: false
+        cs42:
+          Value: false
+        cs43:
+          Value: false
+        cs44:
+          Value: false
+        cs45:
+          Value: false
+        cs46:
+          Value: false
+        cs47:
+          Value: false
+        cs48:
+          Value: false
+        cs49:
+          Value: false
+        cs5:
+          Value: false
+        cs50:
+          Value: false
+        cs51:
+          Value: false
+        cs52:
+          Value: false
+        cs53:
+          Value: false
+        cs54:
+          Value: false
+        cs55:
+          Value: false
+        cs56:
+          Value: false
+        cs57:
+          Value: false
+        cs58:
+          Value: false
+        cs59:
+          Value: false
+        cs6:
+          Value: false
+        cs60:
+          Value: false
+        cs61:
+          Value: false
+        cs62:
+          Value: false
+        cs63:
+          Value: false
+        cs64:
+          Value: false
+        cs65:
+          Value: false
+        cs66:
+          Value: false
+        cs67:
+          Value: false
+        cs68:
+          Value: false
+        cs69:
+          Value: false
+        cs7:
+          Value: false
+        cs70:
+          Value: false
+        cs71:
+          Value: false
+        cs72:
+          Value: false
+        cs73:
+          Value: false
+        cs74:
+          Value: false
+        cs75:
+          Value: false
+        cs76:
+          Value: false
+        cs77:
+          Value: false
+        cs78:
+          Value: false
+        cs79:
+          Value: false
+        cs8:
+          Value: false
+        cs80:
+          Value: false
+        cs81:
+          Value: false
+        cs82:
+          Value: false
+        cs83:
+          Value: false
+        cs84:
+          Value: false
+        cs85:
+          Value: false
+        cs86:
+          Value: false
+        cs87:
+          Value: false
+        cs88:
+          Value: false
+        cs89:
+          Value: false
+        cs9:
+          Value: false
+        cs90:
+          Value: false
+        cs91:
+          Value: false
+        cs92:
+          Value: false
+        cs93:
+          Value: false
+        cs94:
+          Value: false
+        cs95:
+          Value: false
+        cs96:
+          Value: false
+        cs97:
+          Value: false
+        cs98:
+          Value: false
+        cs99:
+          Value: false
+        tip:
+          Value: true
+        world:
+          Value: true
+      Marker Alpha: 1
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: false
+      Show Axes: true
+      Show Names: true
+      Tree:
+        world:
+          base:
+            {}
+          cs1:
+            {}
+          cs10:
+            {}
+          cs11:
+            {}
+          cs12:
+            {}
+          cs13:
+            {}
+          cs14:
+            {}
+          cs15:
+            {}
+          cs16:
+            {}
+          cs17:
+            {}
+          cs18:
+            {}
+          cs19:
+            {}
+          cs2:
+            {}
+          cs20:
+            {}
+          cs21:
+            {}
+          cs22:
+            {}
+          cs23:
+            {}
+          cs24:
+            {}
+          cs25:
+            {}
+          cs26:
+            {}
+          cs27:
+            {}
+          cs28:
+            {}
+          cs29:
+            {}
+          cs3:
+            {}
+          cs30:
+            {}
+          cs31:
+            {}
+          cs32:
+            {}
+          cs33:
+            {}
+          cs34:
+            {}
+          cs35:
+            {}
+          cs36:
+            {}
+          cs37:
+            {}
+          cs38:
+            {}
+          cs39:
+            {}
+          cs4:
+            {}
+          cs40:
+            {}
+          cs41:
+            {}
+          cs42:
+            {}
+          cs43:
+            {}
+          cs44:
+            {}
+          cs45:
+            {}
+          cs46:
+            {}
+          cs47:
+            {}
+          cs48:
+            {}
+          cs49:
+            {}
+          cs5:
+            {}
+          cs50:
+            {}
+          cs51:
+            {}
+          cs52:
+            {}
+          cs53:
+            {}
+          cs54:
+            {}
+          cs55:
+            {}
+          cs56:
+            {}
+          cs57:
+            {}
+          cs58:
+            {}
+          cs59:
+            {}
+          cs6:
+            {}
+          cs60:
+            {}
+          cs61:
+            {}
+          cs62:
+            {}
+          cs63:
+            {}
+          cs64:
+            {}
+          cs65:
+            {}
+          cs66:
+            {}
+          cs67:
+            {}
+          cs68:
+            {}
+          cs69:
+            {}
+          cs7:
+            {}
+          cs70:
+            {}
+          cs71:
+            {}
+          cs72:
+            {}
+          cs73:
+            {}
+          cs74:
+            {}
+          cs75:
+            {}
+          cs76:
+            {}
+          cs77:
+            {}
+          cs78:
+            {}
+          cs79:
+            {}
+          cs8:
+            {}
+          cs80:
+            {}
+          cs81:
+            {}
+          cs82:
+            {}
+          cs83:
+            {}
+          cs84:
+            {}
+          cs85:
+            {}
+          cs86:
+            {}
+          cs87:
+            {}
+          cs88:
+            {}
+          cs89:
+            {}
+          cs9:
+            {}
+          cs90:
+            {}
+          cs91:
+            {}
+          cs92:
+            {}
+          cs93:
+            {}
+          cs94:
+            {}
+          cs95:
+            {}
+          cs96:
+            {}
+          cs97:
+            {}
+          cs98:
+            {}
+          cs99:
+            {}
+          tip:
+            {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Angular Arrow Scale: 0.20000000298023224
+      Angular Color: 204; 204; 51
+      Arrow Width: 0.20000000298023224
+      Class: rviz/TwistStamped
+      Enabled: true
+      Hide Small Values: true
+      History Length: 1
+      Linear Arrow Scale: 0.20000000298023224
+      Linear Color: 204; 51; 51
+      Name: TwistStamped
+      Queue Size: 10
+      Topic: /sorosimpp/visualization/tip_twist
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud
+      Color: 228; 229; 224
+      Color Transformer: FlatColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: PointCloud
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.029999999329447746
+      Style: Spheres
+      Topic: /sorosimpp/visualization/discrete_curve
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 1.8979061841964722
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Field of View: 0.7853981852531433
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.46039876341819763
+      Target Frame: <Fixed Frame>
+      Yaw: 2.3104066848754883
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 996
+  Hide Left Dock: false
+  Hide Right Dock: true
+  QMainWindow State: 000000ff00000000fd0000000400000000000001560000034afc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003b0000034a000000c700fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f0000034afc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003b0000034a000000a000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000006ab0000003efc0100000002fb0000000800540069006d00650100000000000006ab0000030700fffffffb0000000800540069006d006501000000000000045000000000000000000000054f0000034a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: true
+  Width: 1707
+  X: 8
+  Y: 31
