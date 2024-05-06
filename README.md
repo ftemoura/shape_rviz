@@ -3,7 +3,7 @@ This repository collects all the materials required to build a ROS Visualization
 
 ## Download
 ### Step 1: Setup Git Large File Storage (LFS)
-Follow the following steps in this [link](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
+Follow the steps in this [link](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
 
 ### Step 2: Clone this Repository (SSH)
 ```bash
@@ -20,3 +20,7 @@ roslaunch shape_rviz shape_rviz100.launch
 ```bash
 roslaunch shape_rviz shape_rviz7.launch
 ```
+
+## Hints
+- [Rviz Marker](http://wiki.ros.org/rviz/DisplayTypes/Marker);
+- [Existing GUI in RViz for Soft Robotics](https://github.com/ContinuumRoboticsLab/CRVisToolkit).
