@@ -1,0 +1,14 @@
+<launch>
+    <!-- Play rosbag -->
+    <rosparam param="use_sim_time">true</rosparam>
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find shape_rviz)/rviz/test.rviz"/>
+
+    <node pkg="rosbag" type="play" name="player" args="$(find shape_rviz)/bagfiles/isupport_example.bag"/>
+
+    <rosparam param="total_frames">5</rosparam>
+    <rosparam param="scale">1</rosparam>
+    <rosparam param="arm_type">cdcr</rosparam>
+    <rosparam param="sections">[2, 4]</rosparam>
+    <node pkg="shape_rviz" type="visualization_node.py" output="screen" name="visualization_node"/> 
+        
+</launch>

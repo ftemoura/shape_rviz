@@ -1,31 +1,37 @@
-# shape_rviz
+# ROS Visualization Node for Continuum Soft Arm
 This repository collects all the materials required to build a ROS Visualization Node for Continuum Soft Arm in RViz.
 
-## Download
-### Step 1: Setup Git Large File Storage (LFS)
-Follow the steps in this [link](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
+![Flowchat of the Project](/docs/flowchart.svg)
 
-### Step 2: Clone this Repository (SSH)
+
+## Examples
+1) ROS Bag with 100 `/tf` and CDCR visualization:
 ```bash
-git clone git@github.com:BRAIR-Education/shape_rviz.git
+roslaunch shape_rviz shape_rviz100_cdcr.launch
 ```
 
-## Run ROS Bag and RViz
-1) ROS Bag with 100 `/tf` and 100 `sensor_msgs/PointCloud`:
+2) ROS Bag with 100 `/tf` and TDCR visualization:
 ```bash
-roslaunch shape_rviz shape_rviz100.launch
+roslaunch shape_rviz shape_rviz100_tdcr.launch
 ```
 
-2) ROS Bag with 7 `/tf` and no `sensor_msgs/PointCloud`:
+2) ROS Bag with 7 `/tf` and TDCR visualization:
 ```bash
-roslaunch shape_rviz shape_rviz7.launch
+roslaunch shape_rviz shape_rviz7_tdcr.launch
 ```
 
-## Description of the Project
-A **Continuum Soft Arm** can be represented through a 3D oriented curve, called *backbone*. One of the common way to represent it is a set of N reference frames. In this project, the student will develop a ROS Node that represent graphically the backbone in RViz, using the `/tf` messages.
+## Parameters
 
-![Flowchar of the Project](/docs/flowchart.svg)
+There are parameters configurable in the ROS params (there are predefined values included in the example launch files)
 
-## Hints
-- [Rviz Marker](http://wiki.ros.org/rviz/DisplayTypes/Marker);
-- [Existing GUI in RViz for Soft Robotics](https://github.com/ContinuumRoboticsLab/CRVisToolkit).
+**TDCR** and **CDCR**:
+- `arm_type`: defines the type of arm to be represented (`tdcr` or `cdcr`)
+- `sections`: defines the different sections of the arm e.g `[10, 20]` (will be represented by a different color)
+- `scale`: scale of the arm
+- `total_frames`: amount of backbone frames (not counting the base and tip)
+
+**TDCR** only:
+- `density`: density of circular spacers (values between `]0-1]`)
+
+
+
