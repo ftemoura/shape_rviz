@@ -7,7 +7,7 @@ Panels:
         - /Global Options1
         - /Status1
         - /TF1/Frames1
-      Splitter Ratio: 0.5
+      Splitter Ratio: 0.6976743936538696
     Tree Height: 648
   - Class: rviz/Selection
     Name: Selection
@@ -90,13 +90,14 @@ Visualization Manager:
       Name: MarkerArray
       Namespaces:
         base: true
+        cylinders: true
         line_list: true
         tip: true
       Queue Size: 100
       Value: true
   Enabled: true
   Global Options:
-    Background Color: 0; 0; 0
+    Background Color: 0; 0; 255
     Default Light: true
     Fixed Frame: world
     Frame Rate: 60
@@ -138,9 +139,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.2903984785079956
+      Pitch: 0.2153986245393753
       Target Frame: <Fixed Frame>
-      Yaw: 0.4104067385196686
+      Yaw: 5.298591613769531
     Saved: ~
 Window Geometry:
   Displays:
